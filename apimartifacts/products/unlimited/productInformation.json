@@ -1,0 +1,10 @@
+{
+  "properties": {
+    "approvalRequired": true,
+    "description": "Unlimited",
+    "displayName": "Unlimited",
+    "state": "published",
+    "subscriptionRequired": true,
+    "subscriptionsLimit": 1
+  }
+}
