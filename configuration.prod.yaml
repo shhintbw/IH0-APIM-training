@@ -3,7 +3,7 @@ namedValues:
   - name: environment
     properties:
       displayName: environment
-      value: prd
+      value: prod
   - name: demo
     properties:
       displayName: demo
