@@ -31,7 +31,6 @@
     },
     "httpCorrelationProtocol": "Legacy",
     "logClientIp": true,
-    "loggerId": "/subscriptions/0cc5ce1e-f60e-41b0-8519-15486cbc4e51/resourceGroups/rg-ent-snbx-apim-101-102-classwork/providers/Microsoft.ApiManagement/service/apim-ent-snbx-iyy37277/loggers/apii-ent-snbx-iyy37277",
     "sampling": {
       "percentage": 100,
       "samplingType": "Fixed"
