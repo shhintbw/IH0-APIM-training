@@ -1,9 +1,9 @@
-apimServiceName: apim-prod-2023
+apimServiceName: apim-ent-snbx-iyy37277-prod
 namedValues:
   - name: environment
     properties:
       displayName: environment
-      value: prod
+      value: prd
   - name: demo
     properties:
       displayName: demo
