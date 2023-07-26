@@ -19,9 +19,6 @@
 		<set-header name="x-request-context-data" exists-action="override">
 			<value>@(context.Deployment.Region)</value>
 		</set-header>
-		<set-header name="x-request-received-time" exists-action="override">
-			<value>{{TimeNow}}</value>
-		</set-header>
 	</inbound>
 	<backend>
 		<base />
