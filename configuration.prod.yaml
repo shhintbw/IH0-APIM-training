@@ -1,0 +1,14 @@
+apimServiceName: apim-prod-2023
+namedValues:
+  - name: environment
+    properties:
+      displayName: environment
+      value: prod
+  - name: demo
+    properties:
+      displayName: demo
+      value: demo message new again again
+  - name: TimeNow
+    properties:
+      displayName: TimeNow
+      value: "@(DateTime2.Now.ToString())"
