@@ -1,0 +1,10 @@
+{
+  "properties": {
+    "credentials": {
+      "instrumentationKey": "{{Logger-Credentials--64bab209217d2012002ae803}}"
+    },
+    "isBuffered": true,
+    "loggerType": "applicationInsights",
+    "resourceId": "/subscriptions/0cc5ce1e-f60e-41b0-8519-15486cbc4e51/resourceGroups/rg-ent-snbx-apim-101-102-classwork/providers/microsoft.insights/components/apii-ent-snbx-iyy37277"
+  }
+}
