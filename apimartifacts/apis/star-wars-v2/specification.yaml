@@ -9,13 +9,15 @@ paths:
   /people/:
     get:
       summary: Get People
+      description: Get People
       operationId: get-people
       responses:
         '200':
-          description: 
+          description: ''
   /film:
     get:
       summary: Get Film
+      description: Get Film
       operationId: get-film
       responses:
         '200':
@@ -26,10 +28,11 @@ paths:
                 count: 1
                 films:
                   - title: A New Hope
-                    release-date: '1977-05-25'
+                    release-date: '1977-05-25T00:00:00.0000000+00:00'
   '/people/{id}/':
     get:
       summary: Get People By Id
+      description: Get People By Id
       operationId: get-people-by-id
       parameters:
         - name: id
@@ -39,7 +42,7 @@ paths:
             type: ''
       responses:
         '200':
-          description: 
+          description: ''
 components:
   securitySchemes:
     apiKeyHeader:
